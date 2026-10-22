@@ -3,7 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Premium Pastel Review App</title>
+    <title>Norivelle</title>
+    <meta name="description" content="Norivelle · จุดเช็คเครดิตและรีวิวร้าน">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Norivelle">
+    <meta property="og:description" content="Norivelle · จุดเช็คเครดิตและรีวิวร้าน">
+    <meta property="og:image" content="https://i.postimg.cc/SNSHFLnk/IMG-7265.png">
+    <meta property="og:image:alt" content="โลโก้ Norivelle">
+    <meta property="og:locale" content="th_TH">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Norivelle">
+    <meta name="twitter:description" content="Norivelle · จุดเช็คเครดิตและรีวิวร้าน">
+    <meta name="twitter:image" content="https://i.postimg.cc/SNSHFLnk/IMG-7265.png">
+    <link rel="icon" href="https://i.postimg.cc/SNSHFLnk/IMG-7265.png">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,13 +59,13 @@
     <style>
         :root {
             /* Default Theme Colors */
-            --th-bg: #F4F0FA;
-            --th-phoneBg: #FAF5FF;
+            --th-bg: #FDF0F5;
+            --th-phoneBg: #FFF7FC;
             --th-lilac: #EADDFF;
             --th-lilacMid: #D0BCFF;
-            --th-lilacDark: #4F378B;
-            --th-mint: #D1F0DE;
-            --th-mintMid: #A7E3BE;
+            --th-lilacDark: #8B6BB1;
+            --th-mint: #FBE0EE;
+            --th-mintMid: #EDB9D6;
             --th-pinkSoft: #FFD8E4;
         }
 
@@ -430,10 +442,10 @@
             <!-- Floating Logo with Pulse Ripple -->
             <div class="cute-logo-wrapper">
                 <div class="logo-pulse"></div>
-                <div class="cute-logo">Logo</div>
+                <div class="cute-logo"><img src="https://i.postimg.cc/SNSHFLnk/IMG-7265.png" alt="Norivelle" style="width:100%;height:100%;object-fit:contain;border-radius:50%"></div>
             </div>
             
-            <h1 class="preloader-title">Rung Design</h1>
+            <h1 class="preloader-title">Norivelle</h1>
             
             <div class="bg-white/80 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-sm mb-6 border border-white welcome-text">
                 <span class="font-sans text-[10px] font-bold text-gray-500">จุดเช็คเครดิต ยินดีต้อนรับ ✨</span>
@@ -447,7 +459,7 @@
         
         <!-- LAYER 1: BANNER (Fixed background, clipped by phone-frame border) -->
         <div class="banner-layer">
-            <img id="app-banner" src="https://i.postimg.cc/6p8yX9G7/att-6Von-DOH8wrd-QJVa-Xw-JXLsdx6PE0MOMwlv-XVZ-WKQPMg.jpg" alt="Banner" class="banner-img">
+            <img id="app-banner" src="https://i.postimg.cc/3wvcCncg/mi-m-ch-x-37-20261013153716.png" alt="Banner" class="banner-img">
             <div class="banner-fade"></div>
         </div>
         
@@ -576,9 +588,9 @@
                 <div class="flex justify-between items-center mb-4 z-10 relative pointer-events-none">
                     <div class="flex items-center gap-2 bg-white/90 backdrop-blur-md py-1.5 px-3 rounded-full shadow-sm">
                         <div class="w-7 h-7 rounded-full p-[2px]" style="background: linear-gradient(to top right, var(--th-mintMid), var(--th-lilac))">
-                            <img src="https://placehold.co/100x100/fff/4F378B?text=P" class="w-full h-full bg-white rounded-full object-cover">
+                            <img src="https://i.postimg.cc/SNSHFLnk/IMG-7265.png" class="w-full h-full bg-white rounded-full object-cover">
                         </div>
-                        <span class="font-sans font-bold text-xs" style="color: var(--th-lilacDark)">Rung Design</span>
+                        <span class="font-sans font-bold text-xs" style="color: var(--th-lilacDark)">Norivelle</span>
                     </div>
                     <button onclick="closeStory(event)" class="pointer-events-auto text-gray-500 p-2 bg-white/90 rounded-full backdrop-blur-sm w-9 h-9 flex items-center justify-center shadow-sm btn-press">
                         <i class="fa-solid fa-xmark"></i>
@@ -733,7 +745,7 @@
                         <h3 class="text-sm font-bold mb-1" style="color: var(--th-lilacDark)">เลือกโทนสีร้าน</h3>
                         <p class="text-[9px] text-gray-400 mb-2">* เปลี่ยนสีแชท ปุ่ม และพื้นหลังอัตโนมัติ</p>
                         <div class="flex gap-2 mb-4">
-                            <button onclick="changeTheme('default')" class="flex-1 py-2.5 rounded-xl text-[10px] font-bold border btn-press" style="background:#F4F0FA; border-color:#4F378B; color:#4F378B">ม่วง-เขียว (ค่าเริ่มต้น)</button>
+                            <button onclick="changeTheme('default')" class="flex-1 py-2.5 rounded-xl text-[10px] font-bold border btn-press" style="background:#FDF0F5; border-color:#8B6BB1; color:#8B6BB1">ชมพู-ม่วง (ค่าเริ่มต้น)</button>
                             <button onclick="changeTheme('pinkBlue')" class="flex-1 py-2.5 rounded-xl text-[10px] font-bold border btn-press" style="background:#FFF0F5; border-color:#D81B60; color:#D81B60">ชมพู-ฟ้า</button>
                             <button onclick="changeTheme('peach')" class="flex-1 py-2.5 rounded-xl text-[10px] font-bold border btn-press" style="background:#FFF5E6; border-color:#D2691E; color:#D2691E">พีช-เหลือง</button>
                         </div>
@@ -789,16 +801,16 @@
         const STORAGE_KEY = 'pastelAppV9_complete'; 
 
         const THEMES = {
-            default: { bg: '#F4F0FA', phoneBg: '#FAF5FF', main: '#4F378B', sub: '#A7E3BE' },
+            default: { bg: '#FDF0F5', phoneBg: '#FFF7FC', main: '#8B6BB1', sub: '#EDB9D6' },
             pinkBlue: { bg: '#FFF0F5', phoneBg: '#FFFAFA', main: '#D81B60', sub: '#80DEEA' },
             peach: { bg: '#FFF5E6', phoneBg: '#FFFAF0', main: '#D2691E', sub: '#98FB98' }
         };
 
         const DEFAULT_DATA = {
             theme: 'default',
-            customColors: { bg: '#F4F0FA', phoneBg: '#FAF5FF', main: '#4F378B', sub: '#A7E3BE' },
+            customColors: { bg: '#FDF0F5', phoneBg: '#FFF7FC', main: '#8B6BB1', sub: '#EDB9D6' },
             marqueeText: "ยินดีต้อนรับสู่ร้านของเราค่ะ 💖 ขอบคุณทุกรีวิวที่น่ารักนะคะ 🍃",
-            banner: "https://i.postimg.cc/6p8yX9G7/att-6Von-DOH8wrd-QJVa-Xw-JXLsdx6PE0MOMwlv-XVZ-WKQPMg.jpg",
+            banner: "https://i.postimg.cc/3wvcCncg/mi-m-ch-x-37-20261013153716.png",
             contacts: { fb: "https://facebook.com", ig: "https://instagram.com", line: "https://line.me" },
             highlights: [
                 { id: 1, title: 'New Arrival', imgs: ['https://placehold.co/800x800/EADDFF/4F378B?text=New+Arrival+1', 'https://placehold.co/800x800/D1F0DE/4F378B?text=New+Arrival+2'] },
@@ -815,6 +827,14 @@
 
         let appData = JSON.parse(localStorage.getItem(STORAGE_KEY)) || DEFAULT_DATA;
         if(!appData.customColors) appData.customColors = DEFAULT_DATA.customColors;
+        // Apply this shop's branding once while preserving reviews and other settings.
+        if (appData.brandingVersion !== 'norivelle-20261013') {
+            appData.theme = DEFAULT_DATA.theme;
+            appData.customColors = { ...DEFAULT_DATA.customColors };
+            appData.banner = DEFAULT_DATA.banner;
+            appData.brandingVersion = 'norivelle-20261013';
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(appData));
+        }
 
         function saveData() { localStorage.setItem(STORAGE_KEY, JSON.stringify(appData)); }
 
@@ -867,24 +887,39 @@
         const scrollArea = document.getElementById('main-scroll-area');
         
         function smoothScrollToBottom() {
-            if(scrollArea) {
+            if(scrollArea && !isUserInteracting) {
                 scrollArea.scrollTo({ top: scrollArea.scrollHeight, behavior: 'smooth' });
             }
         }
 
+        // Demo IDs 1–3 are already listed newest first; submitted IDs are timestamps.
+        const reviewQueue = appData.reviews.slice().sort((a, b) => {
+            const order = r => r.id <= 3 ? -r.id : r.id;
+            return order(a) - order(b);
+        });
         let chatIndex = 0;
-        let autoScrollInterval;
         let isUserInteracting = false;
+        if (scrollArea) {
+            const pauseFollowing = () => { isUserInteracting = true; };
+            scrollArea.addEventListener('wheel', pauseFollowing, { passive: true });
+            scrollArea.addEventListener('touchmove', pauseFollowing, { passive: true });
+            scrollArea.addEventListener('pointerdown', pauseFollowing, { passive: true });
+            scrollArea.addEventListener('scroll', () => {
+                if (scrollArea.scrollHeight - scrollArea.clientHeight - scrollArea.scrollTop < 24) {
+                    isUserInteracting = false;
+                }
+            }, { passive: true });
+        }
         
         function startChatProcess() {
-            if (chatIndex >= appData.reviews.length) {
-                startContinuousAutoScroll();
+            if (chatIndex >= reviewQueue.length) {
                 return; 
             }
 
             const container = document.getElementById('chat-container');
             const spacer = document.getElementById('chat-spacer');
-            const isNextRight = appData.reviews[chatIndex].isRight;
+            const rev = reviewQueue[chatIndex];
+            const isNextRight = rev.isRight;
             const sideClass = isNextRight ? 'right ml-auto' : 'left';
             
             const indicatorDiv = document.createElement('div');
@@ -905,7 +940,6 @@
                 
                 setTimeout(() => {
                     indicatorDiv.remove();
-                    const rev = appData.reviews[chatIndex];
                     const bubble = createReviewBubble(rev);
                     container.insertBefore(bubble, spacer);
                     
@@ -957,30 +991,6 @@
                 ${imgHTML}
             `;
             return div;
-        }
-
-        function startContinuousAutoScroll() {
-            scrollArea.addEventListener('scroll', () => {
-                isUserInteracting = true;
-                clearTimeout(autoScrollInterval);
-                autoScrollInterval = setTimeout(() => { isUserInteracting = false; }, 3000); 
-            });
-            
-            let lastTime = performance.now();
-            function step(time) {
-                if(time - lastTime > 20) {
-                    if(!isUserInteracting && scrollArea.scrollTop < scrollArea.scrollHeight - scrollArea.clientHeight) {
-                        scrollArea.scrollTop += 0.5; 
-                    } else if (!isUserInteracting && scrollArea.scrollTop >= scrollArea.scrollHeight - scrollArea.clientHeight - 1) {
-                        setTimeout(()=> {
-                        if(!isUserInteracting) scrollArea.scrollTo({ top: 0, behavior: 'smooth' });
-                        }, 5000);
-                    }
-                    lastTime = time;
-                }
-                requestAnimationFrame(step);
-            }
-            requestAnimationFrame(step);
         }
 
         function renderContacts() {
@@ -1095,6 +1105,10 @@
             const newRev = { id: Date.now(), name, text, stars: currentPlusStar, img: img || null, time: 'เมื่อสักครู่', isRight: appData.reviews.length % 2 !== 0 };
             appData.reviews.push(newRev); saveData(); updateReviewCount(); closeModal('plus-modal');
             
+            if (chatIndex < reviewQueue.length) {
+                reviewQueue.push(newRev);
+                return;
+            }
             const container = document.getElementById('chat-container'); const spacer = document.getElementById('chat-spacer');
             const indicatorDiv = document.createElement('div'); indicatorDiv.className = `typing-bubble ${newRev.isRight ? 'right ml-auto' : 'left'}`;
             indicatorDiv.innerHTML = `<div class="typing-indicator"><span></span><span></span><span></span></div>`;
@@ -1104,7 +1118,7 @@
             setTimeout(() => {
                 indicatorDiv.style.opacity = '0'; indicatorDiv.style.transform = 'translateY(10px)';
                 setTimeout(() => {
-                    indicatorDiv.remove(); const bubble = createReviewBubble(newRev); container.insertBefore(bubble, spacer);
+                    const bubble = createReviewBubble(newRev); indicatorDiv.replaceWith(bubble);
                     setTimeout(() => { bubble.classList.add('animate-chat'); smoothScrollToBottom(); }, 50);
                 }, 300);
             }, 1500);
